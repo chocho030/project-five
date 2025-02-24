@@ -1,0 +1,33 @@
+.nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100vw;
+}
+
+.logo {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.logo-img {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  padding-right: 1.5rem;
+}
+
+.nav-center-content {
+  text-decoration: none;
+  /* text-decoration-color: #000; */
+  color: #000;
+}
+#hero {
+  height: 200%;
+}
