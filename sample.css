@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100vw;
+  z-index: 100;
+  background-color: #fff;
+}
+
+.logo {
+  height: 2rem;
+  width: 2rem;
+}
+.logo-img {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  padding-right: 2rem;
+}
+
+.nav-center-content {
+  text-decoration: none;
+  /* text-decoration-color: #000; */
+  color: #000;
+}
+
+/* 히어로 */
+#hero {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 2rem;
+  z-index: 0;
+}
+
+.hero-back {
+}
+
+.hero-content {
+  display: flex;
+  position: absolute;
+}
+.hero-content-title {
+  font-size: x-large;
+  font-weight: bold;
+}
+.hero-content-main {
+}
+
+.hero-icon {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-icon-img {
+}
+
+/* 위시 */
+#wish {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wish-title {
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.wish-main {
+  display: flex;
+}
+.wish-main-content {
+}
+.wish-main-content-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wish-main-content-text {
+  text-align: center;
+}
+
+/* 링크 */
+#link {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 2rem;
+  z-index: 0;
+}
+
+.link-back {
+  width: 100%;
+  background-color: #570000;
+}
+
+.link-main {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 5%;
+  justify-content: center;
+  align-items: center;
+}
+.link-main-content-top {
+  display: flex;
+  gap: 2rem;
+}
+.link-main-content-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.link-main-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.link-main-content {
+  border-radius: 100%;
+  background-color: #fff;
+}
+.link-main-content-img {
+  border-radius: 100%;
+}
+.link-main-content-1 {
+  position: absolute;
+  top: 12rem;
+  left: 32rem;
+}
+.link-main-content-2 {
+  position: absolute;
+  top: 12rem;
+  left: 48rem;
+}
+.link-main-content-3 {
+  position: absolute;
+  top: 24rem;
+  left: 24rem;
+}
+.link-main-content-4 {
+  position: absolute;
+  top: 24rem;
+  left: 40rem;
+}
+.link-main-content-5 {
+  position: absolute;
+  top: 24rem;
+  left: 56rem;
+}
+
+.link-logo {
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  bottom: 1rem;
+  right: 1rem;
+}
+.link-logo-img {
+  height: 100%;
+  width: 100%;
+}
